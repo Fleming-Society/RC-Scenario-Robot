@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Robot Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="logo-container">
+    <img src="https://raw.flemingsociety.com/logo.png" alt="Fleming Society Logo">
+  </div>
+  <div class="container">
+    <h1>Simple Control</h1>
+    <div class="row">
+      <button id="btnUp" onmousedown="buttonPress('up')" onmouseup="buttonRelease()" ontouchstart="buttonPress('up')" ontouchend="buttonRelease()">&#8679;</button>
+    </div>
+    <div class="row">
+      <button id="btnLeft" onmousedown="buttonPress('left')" onmouseup="buttonRelease()" ontouchstart="buttonPress('left')" ontouchend="buttonRelease()">&#8678;</button>
+      <div class="spacer"></div>
+      <button id="btnRight" onmousedown="buttonPress('right')" onmouseup="buttonRelease()" ontouchstart="buttonPress('right')" ontouchend="buttonRelease()">&#8680;</button>
+    </div>
+    <div class="row">
+      <button id="btnDown" onmousedown="buttonPress('down')" onmouseup="buttonRelease()" ontouchstart="buttonPress('down')" ontouchend="buttonRelease()">&#8681;</button>
+    </div>
+    <button class="utility" ontouchstart="toPlanner()" onclick="toPlanner()" style="font-size: medium;">To Path Planner</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

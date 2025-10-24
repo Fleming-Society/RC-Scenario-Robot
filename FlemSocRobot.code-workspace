@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "ESP32/FlemSocRobotEsp32"
+		},
+		{
+			"path": "Arduino/FlemSocRobotArduino"
+		}
+	],
+	"settings": {}
+}
