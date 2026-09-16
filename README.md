@@ -57,5 +57,6 @@ The robot is controlled via a responsive web interface designed with mobile comp
 ## Contributions
 Feel free to fork, improve, and contribute to this project by opening pull requests or raising issues for discussion.
 
-## License
-This project is open-source under the MIT License.
+## Licensing
+Except where a file or notice says otherwise, the original teaching material, firmware and hardware designs are available under the [MIT License](LICENSE).
+
